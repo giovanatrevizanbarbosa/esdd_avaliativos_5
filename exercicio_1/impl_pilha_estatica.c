@@ -70,7 +70,8 @@ bool pop(Pilha pilha, Tipo_Informacao* elemento){
 }
 
 void to_empty(Pilha pilha){
-	int element;
+	Tipo_Informacao element;
+	
     while(!is_empty(pilha)){
         pop(pilha, &element);
     }
