@@ -62,5 +62,3 @@ bool push(Pilha pilha, Tipo_Informacao elemento);
  * a operaçõa retorna true, caso contrário o retorno será false.
 */
 bool pop(Pilha pilha, Tipo_Informacao* elemento);
-
-void to_empty(Pilha pilha);
